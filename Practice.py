@@ -1,12 +1,7 @@
-import ArduinoController
-import sys
-import LoginWindow
 from PyQt5 import QtCore, QtGui, QtWidgets
+import sys
 
-vendorID = None
-productID = None
-
-controller = ArduinoController.ArduinoController("Nano")
+import LoginWindow
 
 windows = ["login_window.ui", "main_window.ui", "settings_window.ui"]
 
