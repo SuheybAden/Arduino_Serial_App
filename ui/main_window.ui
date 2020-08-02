@@ -68,13 +68,6 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="1">
-       <widget class="QTextEdit" name="text_userMessage">
-        <property name="placeholderText">
-         <string>Enter your message here</string>
-        </property>
-       </widget>
-      </item>
       <item row="1" column="0">
        <widget class="QLabel" name="label_2">
         <property name="text">
@@ -86,12 +79,16 @@
        </widget>
       </item>
       <item row="1" column="1">
-       <widget class="QTextEdit" name="text_arduinoMessage">
-        <property name="readOnly">
-         <bool>true</bool>
-        </property>
+       <widget class="QPlainTextEdit" name="txt_ardMsg">
         <property name="placeholderText">
-         <string>No message received yet</string>
+         <string>Arduino message appears here</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPlainTextEdit" name="txt_usrMsg">
+        <property name="placeholderText">
+         <string>Enter your message here</string>
         </property>
        </widget>
       </item>
